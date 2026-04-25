@@ -22,3 +22,14 @@ if (contactForm) {
     contactForm.reset();
   });
 }
+
+const syncTopContactVisibility = () => {
+  if (window.scrollY > 0) {
+    document.body.classList.add("scrolled");
+  } else {
+    document.body.classList.remove("scrolled");
+  }
+};
+
+syncTopContactVisibility();
+window.addEventListener("scroll", syncTopContactVisibility, { passive: true });

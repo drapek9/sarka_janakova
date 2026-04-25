@@ -8,10 +8,16 @@
     <link rel="stylesheet" href="assets/styles.css" />
   </head>
   <body>
+    <div class="top-contact">
+      <div class="container top-contact-inner">
+        <a href="tel:+420777872385">+420 777 872 385</a>
+        <a href="mailto:sarka.janakova@nextreality.cz">sarka.janakova@nextreality.cz</a>
+      </div>
+    </div>
     <header class="topbar">
       <div class="container topbar-inner">
         <a class="brand" href="index.html" aria-label="Domů">
-          <span class="brand-badge">NEXT REALITY</span>
+          <img class="brand-logo" src="images/next-reality_logo.png" alt="NEXT REALITY logo" />
           <span class="brand-name">Ing. Šárka Janáková</span>
         </a>
         <button class="nav-toggle" aria-label="Otevřít menu"><span></span></button>
@@ -28,22 +34,15 @@
 
     <main>
       <div class="container">
-        <section class="section hero">
-          <span class="pill">O mně</span>
-          <h1>Lidsky, odborně a s důvěrou</h1>
-          <p>
-            Umění zprostředkování se uskutečňuje smlouvou, ale v praxi stojí hlavně
-            na schopnosti naslouchat, citlivosti, zkušenosti a odbornosti. Mým cílem
-            je vytvořit důvěru a pracovat zodpovědně, transparentně a profesionálně.
+        <section class="section properties-intro">
+          <h1>O mně</h1>
+          <p class="subtle">
+            Lidský a odborný přístup založený na důvěře, transparentní komunikaci a
+            bezpečném vedení celého procesu koupě i prodeje nemovitosti.
           </p>
-          <div class="cta-row">
-            <a class="btn btn-primary" href="kontakt.html">Nezávazná konzultace</a>
-            <a class="btn btn-soft" href="tel:+420777872385">Zavolat +420 777 872 385</a>
-          </div>
         </section>
 
-        <section class="section grid grid-2">
-          <article class="card">
+        <section class="section plain-section">
             <h2>Jak pracuji</h2>
             <p class="subtle">
               Koupě nebo prodej nemovitosti je jedna z nejdůležitějších investic v životě.
@@ -54,8 +53,9 @@
               Kompletní poradenská činnost začíná důkladnou znalostí trhu a realistickým
               plánem. Vždy víte, co nás čeká a proč daný krok děláme.
             </p>
-          </article>
-          <article class="card">
+        </section>
+
+        <section class="section plain-section">
             <h2>Silné zázemí a kontakty</h2>
             <ul class="subtle">
               <li>Součást kanceláře NEXT REALITY JAN KUBEŠ &amp; PARTNEŘI</li>
@@ -64,17 +64,40 @@
               <li>Marketing napříč prodejními kanály + organizace prohlídek</li>
             </ul>
             <a class="btn btn-soft" href="sluzby.html">Jaké služby nabízím</a>
-          </article>
         </section>
       </div>
     </main>
 
     <footer class="footer">
       <div class="container">
-        <p>
-          Ing. Šárka Janáková | NEXT REALITY JAN KUBEŠ &amp; PARTNEŘI |
-          <a href="mailto:sarka.janakova@nextreality.cz">sarka.janakova@nextreality.cz</a>
-        </p>
+        <div class="footer-grid">
+          <section>
+            <img class="footer-logo" src="images/next-reality_logo.png" alt="NEXT REALITY logo" />
+            <p class="footer-name">Ing. Šárka Janáková</p>
+            <p class="footer-role subtle">Realitní makléř</p>
+          </section>
+          <section>
+            <h3>Navigace</h3>
+            <ul class="footer-nav">
+              <li><a href="index.html">Domů</a></li>
+              <li><a href="o-mne.html">O mně</a></li>
+              <li><a href="sluzby.html">Služby</a></li>
+              <li><a href="nemovitosti.html">Nemovitosti</a></li>
+              <li><a href="reference.html">Reference</a></li>
+              <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+          </section>
+          <section>
+            <h3>Kontakt</h3>
+            <ul class="contact-list subtle">
+              <li><strong>Telefon:</strong> <a href="tel:+420777872385">+420 777 872 385</a></li>
+              <li><strong>E-mail:</strong> <a href="mailto:sarka.janakova@nextreality.cz">sarka.janakova@nextreality.cz</a></li>
+              <li><strong>IČ:</strong> 4945867</li>
+              <li><strong>Kancelář:</strong> Školní 77, Jindřichův Hradec 377 01</li>
+            </ul>
+          </section>
+        </div>
+        <p class="footer-copy">© 2026 Ing. Šárka Janáková, realitní makléř. Všechna práva vyhrazena.</p>
       </div>
     </footer>
 
