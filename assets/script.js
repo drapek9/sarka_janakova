@@ -10,8 +10,10 @@ if (navToggle && topbar) {
 }
 
 reservationButtons.forEach((button) => {
-  button.addEventListener("click", () => {
-    alert("Rezervace prohlídky bude brzy dostupná online. Zavolejte prosím na +420 777 872 385.");
+  button.addEventListener("click", (event) => {
+    // Tlačítko má zatím být neaktivní: při kliknutí nedělat nic.
+    event.preventDefault();
+    event.stopPropagation();
   });
 });
 
